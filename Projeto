@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4cf0d46bf9.js" crossorigin="anonymous"></script>
+<style>
+.foto-perfil{
+    height: 5;
+    width: auto;
+    max-width: 20%;
+    border-radius: 100%;
+}
+.corPrimaria{
+  background-color:#E0FFFF;
+}
+.corSecundaria{
+  background-color:#AFEEEE;
+}
+p{
+  font-family:Arial, Helvetica, sans-serif;
+  color: black !important;
+}
+.icones{
+  padding-left: 5px;
+  }
+.titulosbrancos{
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:black;
+  }
+
+  .titulosverdes{
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:black;
+  }
+.textobranco{
+  color: black !important;
+}
+.jumbotron{
+  margin-bottom: 0px;
+}
+.textofooter{
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+html{
+  scroll-behavior: smooth;
+}
+</style>
+</head>
+<body>
+    <nav class=" corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textobranco" href="#">Luiz Silva</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          
+        </ul>
+          <ul class="navbar-nav"> 
+              <li class="nav-item">
+            <a class="nav-link textobranco" href="#projeto">Projetos</a>
+          </li>
+              <li class="nav-item">
+            <a class="nav-link textobranco" href="#sobre mim">Sobre mim</a>
+          </li>
+              <li class="nav-item">
+            <a class="nav-link textobranco" href="#depoimentos">Depoimentos</a>
+          </li>
+              <li class="nav-item">
+            <a class="nav-link textobranco" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="jumbotron-heading text-center corPrimaria ">
+        <div class="container">
+            <img class="foto-perfil" src="img/WhatsApp Image 2021-02-11 at 18.28.37.jpeg">
+          <h1 class="jumbotron-heading textobranco">Luiz Silva</h1>
+          <p class="lead textobranco">Sou programdor de HTML, CSS e JavaScript e Criador de Conteúdo
+              <br>
+            <a href="#" class="btn btn-dark my-2">Contato</a>
+          </p>
+            <a href="https://www.linkedin.com/in/luiz-bueno-656897197/"i class="textobranco fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/lhbss_/"class="textobranco icones fab fa-instagram"></i></a>
+            <a href="https://github.com/LuizSilva02" class=" textobranco icones fab fa-github"></i></a>
+        </div>
+      </section>
+      <div class="album py-5 bg-light" id="projeto">
+        <div class="container">
+<h2 class=" jumbotron-heading text-center titulosverdes">Projeto</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-6 box-shadow">
+                <img class=" card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x225]" style="height: 225px; width: 100%; display: block;" src="img/2021-02-11 (2).png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto feito no Codepen, onde simula valores de uma corrida com base na sua distância e tempo </font><font style="vertical-align: inherit;">Este conteúdo é um pouco mais longo.. </font><font style="vertical-align: inherit;">Este conteúdo é um pouco mais longo.</font></font></p>
+                  <ul>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a  href="https://codepen.io/LHBS/pen/ExVxEmP" <button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver projeto</font></font></button></a>
+                      <button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">código</font></font></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-6 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x225]" style="height: 225px; width: 100%; display: block;" src="img/2021-02-11 (3).png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto onde certificados digitais podem ser entregues</font></font></p>
+                    <ul>
+                      <li>Javascript</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a  href="https://codepen.io/LHBS/pen/zYvxqEM"<button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver projeto</font></font></button></a>
+                        <button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Código</font></font></button>
+                      </div>
+                      <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">9 minutos</font></font></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Sobre mim-->
+      <section class="jumbotrom text-center corSecundaria" id="sobre mim">
+        <div class="container">
+          <h2 class="jumbotron-heading titulosbrancos">Sobre mim</h2>
+          <p class="lead">Olá meu nome é Luiz Silva, tenho 18 anos e sou programador de Front-End, gosto muito dessa área e de mexer com as linguagens e códigos da programação, nesse site estão alguns projetos feito por mim.</p>
+        </div>
+      </section>
+      <br>
+      <br>
+
+      <!-- depoimentos -->
+      <section class="jumbotrom text-center ">
+        <div class="container">
+          <h2 class="jumbotron-heading text-center titulosverdes " id="depoimentos">
+            depoimento
+          </h2>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+      </section>
+<!-- contato -->
+<section>
+  <div class="container-fluid corSecundaria" id="contato">
+<h3 style="padding-top:60px" class="text-center titulosbrancos">disponivel para oportunidades</h3>
+<a href="mailto:LHBS202@GMAIL.COM"><h4 style="padding-bottom: 60px;margin-bottom: 0px;" class="text-center titulosbrancos">lhbs202@gmail.com</h4></a>
+  </div>
+</section>
+<!--footer-->
+<footer class=" text-center corPrimaria textofooter">
+  <p class="textobranco">Copyright luiz Silva</p>
+</footer>
+</body>
+</html>
